@@ -1,15 +1,4 @@
-// document.addEventListener('DOMContentLoaded', () => {
-// const slackDisplayName = "Chidinma Nwosu";  
-// const slackEmail = "chidinmaifynwosu@gmail.com";  
-// const slackProfilePicture = "./assets/images/profile-pic2.png";  
-
-// document.getElementById('slackDisplayName').textContent = slackDisplayName;
-// document.getElementById('slackEmail').textContent = slackEmail;
-// // document.getElementById('slackProfilePicture').src = slackProfilePicture;
-
-// });
-
-  function updateTimeAndDay(){
+function updateTimeAndDay(){
     const now = new Date();
     let hours = now.getHours();
     let minutes = now.getMinutes();
@@ -35,6 +24,3 @@
   //update the time and day every second
   setInterval(updateTimeAndDay, 1000);
 
-
-
-    
