@@ -1,13 +1,13 @@
-document.addEventListener('DOMContentLoaded', () => {
-const slackDisplayName = "Chidinma Nwosu";  
-const slackEmail = "chidinmaifynwosu@gmail.com";  
-const slackProfilePicture = "./assets/images/profile-pic2.png";  
+// document.addEventListener('DOMContentLoaded', () => {
+// const slackDisplayName = "Chidinma Nwosu";  
+// const slackEmail = "chidinmaifynwosu@gmail.com";  
+// const slackProfilePicture = "./assets/images/profile-pic2.png";  
 
-document.getElementById('slackDisplayName').textContent = slackDisplayName;
-document.getElementById('slackEmail').textContent = slackEmail;
-// document.getElementById('slackProfilePicture').src = slackProfilePicture;
+// document.getElementById('slackDisplayName').textContent = slackDisplayName;
+// document.getElementById('slackEmail').textContent = slackEmail;
+// // document.getElementById('slackProfilePicture').src = slackProfilePicture;
 
-});
+// });
 
   function updateTimeAndDay(){
     const now = new Date();
